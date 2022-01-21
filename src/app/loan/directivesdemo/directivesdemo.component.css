@@ -1,0 +1,11 @@
+.bdr{
+    border-radius: 3px;
+    color: aqua;
+}
+.bg{
+    background-color: blueviolet;
+}
+.div{
+    width: 200px;
+    height: 200px;
+}

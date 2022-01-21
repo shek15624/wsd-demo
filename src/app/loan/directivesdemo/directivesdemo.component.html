@@ -1,0 +1,86 @@
+ <!-- <div *ngIf = "condition; else xyz">
+    <h1>hiii shek hello</h1>
+</div>
+<ng-template #xyz>
+    <div>
+        <h1>NOTHING</h1>
+    </div>
+</ng-template>
+
+
+<ol>
+    <li *ngFor="let fruitnames of fruits">
+        {{fruitnames}}
+    </li>
+</ol>
+
+<div *ngFor="let day of days">
+    {{days}}
+
+    <div *ngIf = "days; else abc">
+        {{days}}
+    </div>
+    <ng-template #abc>
+        <h1>weekand days</h1>
+    </ng-template>
+</div> 
+
+<input type="text" #fruit>:<input type="button" value="Add Fruit " (click)="addfruit(fruit.value)">
+<ol>
+    <li *ngFor="let fruitnames of fruits ">
+            {{fruitnames}}
+    </li>
+
+</ol>
+
+<input type="text" #fruit>:<input type="button" value="Add Fruit " (click)="addfruit(fruit.value)">
+<ol>
+    <li *ngFor="let fruitnames of fruits ; index as i">
+           {{i}}--- {{fruitnames}}
+    </li>
+
+</ol>
+
+
+<div *ngFor="let day of days" >
+
+    <div *ngIf="day=='Sunday' || day=='Saturday' ; else elseBlock">
+        <h1>{{day}}: is weekend </h1>
+
+    </div>
+    <ng-template #elseBlock>
+        <h1> {{day}}: week days </h1>
+    </ng-template>
+</div>
+
+
+<div [ngSwitch]="myval">
+    <h3 *ngSwitchCase="1">Tamil</h3>
+    <h3 *ngSwitchCase="2">english</h3>
+    <h3 *ngSwitchCase="3">arabhi</h3>
+    <h3 *ngSwitchCase="4">telugu</h3>
+    <h3 *ngSwitchCase="5">kanada</h3>
+</div> -->
+
+
+<!-- <div [ngClass]="{bdr:true, bg:false, div:true}">
+    <h5> hiiii hello how </h5>
+</div>
+
+<div class="bdr bg div">
+    <h5> hiiii hello how </h5>
+</div>
+
+
+<div [ngStyle]="{'color':clr, 'background-color':bgc}">
+    <h5> hiiii hello how </h5>
+</div>
+
+
+<select>
+    <option>Green</option>
+    <option>Blue</option>
+    <option>Yellow</option>
+    <option>Black</option>
+    <option>pink</option>
+</select>   -->
